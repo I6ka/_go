@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/castlab/Documents/_src/_go status)",
+      "Bash(git --version)"
+    ]
+  }
+}
