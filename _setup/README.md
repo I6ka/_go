@@ -40,6 +40,13 @@ go version
 - Macで初めての環境構築だったためbrewコマンドのインストールから実施した。
 ---
 
+##go rnの裏側
+- go runでバイナリファイルがビルドされ一時ディレクトリに置かれる
+- ファイルを実行→終了後バイナリファイル削除
+
+##実行形式ファイル生成
+- go build -o hello_world hello.go
+-- -o ***にて任意の名前で実行ファイルを生成できる。
 ## 参考
 - [Homebrew 公式](https://brew.sh)
 - [Go 公式](https://go.dev)
